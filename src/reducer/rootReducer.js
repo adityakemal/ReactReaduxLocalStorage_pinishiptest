@@ -12,7 +12,7 @@ if (!localStorage.getItem('data')) {
   
 
 const rootReducer = (state = initState , action) =>{
-    console.log(action);
+    // console.log(action);
     if (action.type == 'EDIT_POST') {
         for (const i in state.posts) {
             if (state.posts[i].id == action.id) {

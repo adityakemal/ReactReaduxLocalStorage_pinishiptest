@@ -7,3 +7,7 @@ steps :
 
 or u can check on firebase url :
 https://pinishiptest-17cb5.firebaseapp.com/
+
+/post auth :
+- username : admin
+- password : secret
